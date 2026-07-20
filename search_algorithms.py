@@ -205,7 +205,7 @@ for ds in DATASET_KEYS:
 # Overall winner
 overall_winner = min(report, key=overall_avg)
 
-print("\n" + "=" * 50)
+print("=" * 50)
 for ds in DATASET_KEYS:
     w = winners[ds]
     print(f"{datasets[ds]['label']}: fastest = {report[w]['label']} ({combined_avg(w, ds):.4f} ms)")

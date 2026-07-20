@@ -21,9 +21,9 @@ two types of substrings: one present in the text and one absent.
 
 | Algorithm | Complexity | Found (ms) | Not Found (ms) | Average (ms) |
 |---|---|---|---|---|
-| Boyer-Moore algorithm **(fastest)** | O(n) / O(n x m) | 0.0508 | 0.1882 | 0.1195 |
-| Knuth-Morris-Pratt algorithm | O(n+m) / O(n+m) | 0.1875 | 0.6907 | 0.4391 |
-| Rabin-Karp algorithm | O(n+m) / O(n x m) | 0.3755 | 1.2723 | 0.8239 |
+| Boyer-Moore algorithm **(fastest)** | O(n) / O(n x m) | 0.0442 | 0.1693 | 0.1067 |
+| Knuth-Morris-Pratt algorithm | O(n+m) / O(n+m) | 0.1788 | 0.6024 | 0.3906 |
+| Rabin-Karp algorithm | O(n+m) / O(n x m) | 0.3599 | 1.2268 | 0.7933 |
 
 **Fastest on this text:** Boyer-Moore algorithm
 
@@ -31,9 +31,9 @@ two types of substrings: one present in the text and one absent.
 
 | Algorithm | Complexity | Found (ms) | Not Found (ms) | Average (ms) |
 |---|---|---|---|---|
-| Boyer-Moore algorithm **(fastest)** | O(n) / O(n x m) | 0.0520 | 0.2960 | 0.1740 |
-| Knuth-Morris-Pratt algorithm | O(n+m) / O(n+m) | 0.2284 | 0.9419 | 0.5852 |
-| Rabin-Karp algorithm | O(n+m) / O(n x m) | 0.4800 | 1.7257 | 1.1028 |
+| Boyer-Moore algorithm **(fastest)** | O(n) / O(n x m) | 0.0517 | 0.2930 | 0.1723 |
+| Knuth-Morris-Pratt algorithm | O(n+m) / O(n+m) | 0.2181 | 0.8511 | 0.5346 |
+| Rabin-Karp algorithm | O(n+m) / O(n x m) | 0.4457 | 1.7103 | 1.0780 |
 
 **Fastest on this text:** Boyer-Moore algorithm
 
@@ -43,9 +43,9 @@ Average time of each algorithm across both texts:
 
 | Algorithm | Average time (ms) |
 |---|---|
-| Boyer-Moore algorithm **(fastest)** | 0.1468 |
-| Knuth-Morris-Pratt algorithm | 0.5121 |
-| Rabin-Karp algorithm | 0.9633 |
+| Boyer-Moore algorithm **(fastest)** | 0.1395 |
+| Knuth-Morris-Pratt algorithm | 0.4626 |
+| Rabin-Karp algorithm | 0.9357 |
 
 ## Conclusions
 
